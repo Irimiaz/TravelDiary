@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/aboutFragment"
+        android:layout_width="21dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:icon="@drawable/symbol_questionmark_removebg_preview"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        android:title="About Us" />
+    <item
+        android:id="@+id/contactFragment"
+        android:icon="@drawable/image_removebg_preview"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/titleFragment"
+        android:icon="@drawable/image_removebg_preview__1_"
+        android:title="Logout" />
+</menu>

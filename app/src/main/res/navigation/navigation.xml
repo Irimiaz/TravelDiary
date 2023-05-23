@@ -1,0 +1,96 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.android.navigation.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_registerFragment4"
+            app:destination="@id/registerFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.android.navigation.GameFragment"
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game" >
+        <argument
+            android:name="user"
+            app:argType="com.example.android.navigation.database.User" />
+        <action
+            android:id="@+id/action_gameFragment_to_newMemory"
+            app:destination="@id/newMemory" />
+        <action
+            android:id="@+id/action_gameFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+        <action
+            android:id="@+id/action_gameFragment_self"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.android.navigation.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/registerFragment4"
+        android:name="com.example.android.navigation.RegisterFragment"
+        android:label="RegisterFragment"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment4_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newMemory"
+        android:name="com.example.android.navigation.NewMemory"
+        android:label="fragment_new_memory"
+        tools:layout="@layout/fragment_new_memory" >
+        <argument
+            android:name="user"
+            app:argType="com.example.android.navigation.database.User" />
+        <action
+            android:id="@+id/action_newMemory_to_gameFragment"
+            app:destination="@id/gameFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        tools:layout="@layout/fragment_edit"
+        android:name="com.example.android.navigation.EditFragment"
+        android:label="EditFragment" >
+        <action
+            android:id="@+id/action_editFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <argument
+            android:name="destination"
+            app:argType="com.example.android.navigation.database.Destination" />
+        <argument
+            android:name="user"
+            app:argType="com.example.android.navigation.database.User" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.android.navigation.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.android.navigation.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+</navigation>
