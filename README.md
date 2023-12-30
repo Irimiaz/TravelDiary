@@ -1,6 +1,6 @@
 # Travel Memories Android App
 
-Welcome to the Travel Memories Android application repository! This app, developed as part of the Google Atelierul Digital Android Fundamentals with Kotlin course, allows users to create, view, and edit their travel memories seamlessly. The project focuses on providing an intuitive and feature-rich experience for users to cherish and manage their travel experiences.
+Welcome to the Travel Memories Android application repository! This app allows users to create, view, and edit their travel memories seamlessly. The project focuses on providing an intuitive and feature-rich experience for users to cherish and manage their travel experiences.
 
 ## Getting Started
 
