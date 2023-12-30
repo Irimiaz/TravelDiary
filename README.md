@@ -68,5 +68,3 @@ Customize the app with the following options:
 ### Send Feedback
 
 Users can provide feedback to the developer via a predefined email or a dummy flow.
-
-Feel free to reach out if you have any questions or need assistance. Good luck with your Travel Memories project!
