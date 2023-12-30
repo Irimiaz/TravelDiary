@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">TravelDiary</string>
+    <string name="about_text">Travel Diary este o aplicație care îi ajută pe utilizatori să salveze câteva detalii despre experiențele lor de călătorie anterioare! \n\nExtindeți-vă istoricul de călătorie cu Travel Diary și bucurați-vă de toate amintirile bune!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="typesOfTransport">
+        <item>Tip de Transport</item> <!-- Hint item -->
+        <item>Masina</item>
+        <item>Avion</item>
+        <item>Tren</item>
+        <item>Barca</item>
+        <item>Mers</item>
+    </string-array>
+    <string-array name="languages">
+        <item>Alege una</item> <!-- Hint item -->
+        <item>Engleza</item>
+        <item>Romana</item>
+    </string-array>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="username">Nume de utilizator</string>
+    <string name="password">Parola</string>
+    <string name="login">Logheaza-te</string>
+    <string name="register">Inregistreaza-te</string>
+    <string name="email">Email</string>
+    <string name="fullName">Nume</string>
+    <string name="noDestinations">Nu există destinații disponibile</string>
+    <string name="home">Acasă</string>
+    <string name="aboutUs">Despre noi</string>
+    <string name="contactUs">Contactaţi-ne</string>
+    <string name="settings">Setări</string>
+    <string name="logout">Deconectare</string>
+    <string name="deleteAccount">Șterge cont</string>
+    <string name="deleteAllData">Ștergeți toate datele</string>
+    <string name="emailMe">Trimite-mi un email</string>
+    <string name="subject">Subiect</string>
+    <string name="content">Conţinut</string>
+    <string name="send">TRIMITE</string>
+    <string name="darkMode">Modul întunecat</string>
+    <string name="satelliteMode">Modul Satelit</string>
+    <string name="language">Limba</string>
+    <string name="save">SALVEAZA</string>
+    <string name="back">ÎNAPOI</string>
+    <string name="sureQuestion">Esti sigur?</string>
+    <string name="logoutQuestion">Doriți să vă deconectați?</string>
+    <string name="deleteAccountQuestion">Doriți să vă ștergeți contul?</string>
+    <string name="deleteDestinationQuestion">Doriți să ștergeți această destinație?</string>
+    <string name="enterPassword">Introdu parola</string>
+    <string name="yes">DA</string>
+    <string name="no">NU</string>
+    <string name="destinationName">Numele Destinației</string>
+    <string name="destinationLocation">Locație</string>
+    <string name="destinationDate">Selectați Data</string>
+    <string name="destinationGalery">Galeria</string>
+    <string name="destinationDescription">Descriere</string>
+    <string name="edit">EDITAȚI</string>
+    <string name="delete">ȘTERGE</string>
+    <string name="settingsSaved">Setarile au fost salvate!</string>
+    <string name="destinationDeleted">Destinația a fost ștearsă!</string>
+    <string name="accountDeleted">Contul a fost șters!</string>
+    <string name="dataDeleted">Toate datele au fost șterse!</string>
+    <string name="incorrectPassword">Parola incorecta!</string>
+    <string name="wrongCredentials">Acreditări greșite!</string>
+    <string name="typeOfTravel">Tip de călătorie</string>
+    <string name="submit">TRIMITE</string>
+    <string name="changePhoto">Schimbare fotografie</string>
+    <string name="pleaseWriteTheSubject">Va rog sa scrieti subiectul!</string>
+    <string name="photoSaved">Fotografie salvată!</string>
+    <string name="pleaseLogInFirst">Vă rugăm să vă conectați mai întâi!</string>
+    <string name="place">Loc</string>
+    <string name="weather">Vreme</string>
+    <string name="temperature">Temperatura</string>
+    <string name="humidity">Umiditate</string>
+    <string name="coordonates">Coordonate</string>
+    <string name="noUserFound">Nu a fost găsit niciun utilizator!</string>
+    <string name="date">Data</string>
+    <string name="typeOfTransport">Tip de călătorie</string>
+    <string name="description">Descriere</string>
+    <string name="currentLanguage">Romana</string>
+</resources>

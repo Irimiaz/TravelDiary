@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TravelDiary" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#fae7e8</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.TravelDiary.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.TravelDiary.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+    <item name="android:textColorHint">@color/white</item>
+    <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Theme.TravelDiary.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:colorBackground">#444445</item>
+    </style>
+    
+
+
+    <!-- NIGHT MODE -->
+    <style name="linearLayoutStyle">
+        <item name="android:background">#444445</item>
+    </style>
+    <style name="textSyle">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/custom_edittext</item>
+    </style>
+    <style name="onlyTextStyle">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="logoStyle">
+        <item name="android:src">@drawable/logo_removebg_preview_night</item>
+    </style>
+    <style name="loginStyle">
+        <item name="android:background">@drawable/login_night</item>
+    </style>
+    <style name="spinnerStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">#444445</item>
+    </style>
+    <style name="onlyTextStyleWithBackground">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">#444445</item>
+        <item name="android:background">#444445</item>
+    </style>
+    <style name="roundedButtonStyle">
+        <item name="android:background">@drawable/roundedbutton</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="githubStyle">
+        <item name="android:background">@drawable/github_night</item>
+    </style>
+    <style name="linkedinStyle">
+        <item name="android:background">@drawable/linkedin_night</item>
+    </style>
+    <style name="MyToolbarStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">#444445</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="navHeaderStyle">
+        <item name="android:background">#673AB7</item>
+    </style>z
+</resources>

@@ -1,0 +1,111 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    style="@style/loginStyle"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/linearLayoutStyle"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="308dp"
+                android:layout_height="80dp"
+                style="@style/logoStyle" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/PlaceName"
+                android:layout_marginTop="0dp"
+                android:padding="8dp"
+                android:hint="@string/destinationName"
+                style="@style/textSyle"
+                android:gravity="center"
+
+                android:drawablePadding="8dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/destinationLocation"
+                android:padding="8dp"
+                android:hint="@string/destinationLocation"
+                style="@style/textSyle"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+
+                android:drawablePadding="8dp"/>
+            <Button
+                android:id="@+id/destinationDate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="@string/destinationDate"
+                style="@style/textSyle"
+                android:gravity="center"
+                android:drawablePadding="8dp" />
+            <Button
+                android:id="@+id/destinationPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="@string/destinationGalery"
+                style="@style/textSyle"
+                android:gravity="center"
+                android:drawablePadding="8dp" />
+
+            <Spinner
+                android:id="@+id/destinationType"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:hint="Select a language"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                style="@style/textSyle"
+                android:layout_height="50dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/Description"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:hint="@string/destinationDescription"
+                style="@style/textSyle"
+                android:drawablePadding="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/save"
+                android:id="@+id/saveButton"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                style="@style/buttonStyle"
+                app:cornerRadius = "20dp"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
